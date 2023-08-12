@@ -1,3 +1,8 @@
+export class User {
+    email: string;
+    name: string;
+}
+
 export interface Trip {
     _id: string, // internal MongoDB primary key
     code: string,
